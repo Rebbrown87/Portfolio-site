@@ -219,35 +219,3 @@ This is a responsive personal portfolio for showcasing my technical skills, educ
 </html>
 
 
-
-
-
-Here’s how you can deploy and host your portfolio on GitHub Pages, Rebbrown:
-🚀 Step-by-Step Deployment Guide
-1. Create a GitHub Repository
-•	Go to github.com and sign in.
-•	Click “New” to create a new repository.
-•	Name it something like portfolio-site.
-•	Choose Public.
-•	Check "Add a README file" (optional, but helpful).
-•	Click Create Repository.
-2. Upload Your Code
-•	On the repo page, click “Add file” > “Upload files”.
-•	Upload your index.html file and image (e.g., rebbrown.jpg).
-•	Click Commit changes to save.
-3. Enable GitHub Pages
-•	Go to the Settings tab of your repository.
-•	Scroll down to the "Pages" section.
-•	Under “Source,” choose Deploy from a branch.
-•	Select the main branch and click Save.
-•	GitHub will generate a link like:
-•	https://rebbrown87.github.io/portfolio-site/
-4. Verify Deployment
-•	Wait a few seconds.
-•	Visit the link to confirm your website is live.
-🛠️ Tips for Success
-•	Ensure your main file is named index.html.
-•	Keep image and resource links relative (e.g., rebbrown.jpg).
-•	Want a custom domain later? GitHub Pages supports it.
-Want help writing a killer project description or setting up a favicon next?
-
