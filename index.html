@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rebbrown87</title>
+  <style>
+    /* Global body styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Intro header section */
+    .intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #4b6cb7;
+      color: white;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+
+    /* Text content beside profile image */
+    .intro-text {
+      max-width: 70%;
+    }
+
+    /* Profile image container */
+    .intro-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Profile image styling */
+    .intro-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Main content section styling */
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+
+    /* Section headings */
+    h2 {
+      color: #4b6cb7;
+    }
+
+    /* List styling */
+    ul {
+      padding-left: 20px;
+    }
+
+    /* Styled button */
+    .btn {
+      display: inline-block;
+      padding: 0.75em 1.5em;
+      background: #4b6cb7;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 10px;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+      width: 100%;
+      max-width: 250px;
+      text-align: center;
+    }
+
+    /* Form input and text area styling */
+    form input,
+    form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Responsive tweaks for smaller screens */
+    @media (max-width: 600px) {
+      .intro-text {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+      .btn {
+        font-size: 0.875rem;
+        padding: 0.5em 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Intro section with name and profile image -->
+  <div class="intro">
+    <div class="intro-text">
+      <h1>Likalani Shadrack</h1>
+      <p>Educator & Tech Enthusiast | Software Engineering Student | Quantum Computing Advocate</p>
+    </div>
+    <div class="intro-img">
+      <img src="rebbrown.jpg" alt="Profile picture">
+    </div>
+  </div>
+
+  <!-- About Me section -->
+  <section>
+    <h2>📝 About Me</h2>
+    <p>I'm an educator with a strong foundation in physics, computing, design, and diagnostics. I bring over 3 years of experience in graphic design and branding, currently expanding into software engineering and tech at PLP Academy.</p>
+  </section>
+
+  <!-- Programming Languages section -->
+  <section>
+    <h2>💻 Programming Languages</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>MongoDB</li>
+      <li>Python (learning)</li>
+    </ul>
+  </section>
+
+  <!-- Educational Background section -->
+  <section>
+    <h2>🎓 Educational Background</h2>
+    <p>Expertise in teaching physics, computer studies, networking, database management, and electronics. Studying software engineering via PLP Academy.</p>
+    <a class="btn" href="https://drive.google.com/file/d/1DdqYqDR6VrEPjqR62-pdVw01QOyPzV71/view?usp=drive_link" target="_blank">Download My CV</a>
+  </section>
+
+  <!-- Interests section -->
+  <section>
+    <h2>💡 Interests</h2>
+    <ul>
+      <li>Quantum Computing & AI</li>
+      <li>Cloud Platforms: AWS, Azure</li>
+      <li>Python frameworks & Android Dev</li>
+      <li>Technical education and collaboration</li>
+    </ul>
+  </section>
+
+  <!-- Projects section -->
+  <section>
+    <h2>🛠️ Projects</h2>
+    <ul>
+      <li><strong>Online Exam App</strong>: Secure student/admin interface. <a href="#" target="_blank">View Project</a></li>
+      <li><strong>Semantic HTML Site</strong>: Accessibility-focused page. <a href="#" target="_blank">View Project</a></li>
+      <li><strong>Portfolio Website</strong>: Your journey and skills. <a href="#" target="_blank">Live Demo</a></li>
+    </ul>
+  </section>
+
+  <!-- Contact form section -->
+  <section>
+    <h2>📬 Contact Me</h2>
+    <form action="mailto:rebbrownlikalani87@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Name" placeholder="Likalani Shadrack" required />
+      <input type="email" name="Email" placeholder="rebbrownlikalani87@gmail.com" required />
+      <textarea name="Message" rows="5" placeholder="Your message..." required></textarea>
+       <button class="btn" type="submit">Send Message</button>
+    </form>
+  </section>
+
+</body>
+</html>
+
